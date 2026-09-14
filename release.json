@@ -1,0 +1,6 @@
+{
+  "repository": "vela-ollama",
+  "kind": "app",
+  "app_dir": "ollama",
+  "version_file": "ollama/app.json"
+}

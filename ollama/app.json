@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 2,
+  "id": "ollama",
+  "name": "Ollama Library",
+  "version": "0.1.0",
+  "description": "Browse models on an existing Ollama server through a read-only connection.",
+  "category": "Developer",
+  "author": "Vela",
+  "color": "#a59c8b",
+  "compatibility": {"bridge": 1},
+  "runtime": {"static": {"entry": "index.html"}},
+  "view": {"surface": "embedded", "chrome": "compact"},
+  "capabilities": {"required": ["connections"]},
+  "connection": {"provider": "ollama", "operations": ["models.list", "models.show", "server.version"]}
+}
