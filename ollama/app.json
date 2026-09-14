@@ -7,9 +7,29 @@
   "category": "Developer",
   "author": "Vela",
   "color": "#a59c8b",
-  "compatibility": {"bridge": 1},
-  "runtime": {"static": {"entry": "index.html"}},
-  "view": {"surface": "embedded", "chrome": "compact"},
-  "capabilities": {"required": ["connections"]},
-  "connection": {"provider": "ollama", "operations": ["models.list", "models.show", "server.version"]}
+  "compatibility": {
+    "bridge": 1
+  },
+  "runtime": {
+    "static": {
+      "entry": "index.html"
+    }
+  },
+  "view": {
+    "surface": "embedded",
+    "chrome": "compact"
+  },
+  "capabilities": {
+    "required": [
+      "connections"
+    ]
+  },
+  "connection": {
+    "provider": "ollama",
+    "operations": [
+      "models.list",
+      "models.show",
+      "server.version"
+    ]
+  }
 }
